@@ -39,6 +39,10 @@ function displayLevel0() {
 
   const text = document.getElementById("infoText");
   text.innerHTML = "<strong>Dr. Crick Branchez</strong>Hey you, uh... can you help me find my uh... my f-friend John Hydrogen? He's l-lost in space s-somewhere. Just um... click on something.";
+
+  // Play the audio file
+  const audio = new Audio("audio/one.mp3");
+  audio.play();
 }
 
 function displayLevel1() {
@@ -60,6 +64,10 @@ function displayLevel1() {
 
   const text = document.getElementById("infoText");
   text.innerHTML = "<strong>Dr. Crick Branchez</strong>John Hydrogen is on an uh... orange star from the main sequence. It's one of these four, and uh... i d-don't know which one it is. F-Figure it out. Try to look c-closely at the clusters in the HR diagram";
+
+  // Play the audio file
+  const audio = new Audio("audio/two.mp3");
+  audio.play();
 }
 
 function displayLevel2() {
@@ -81,6 +89,10 @@ function displayLevel2() {
 
   const text = document.getElementById("infoText");
   text.innerHTML = "<strong>Dr. Crick Branchez</strong>Good boy. That's c-correct. uh... oh no, John Hydrogen just left uh... this star. He's de-definately on a supergiant s-star now. Which one is a supergiant here? T-Try matching the blocked wavelengths to uh... the spectrums. Remember, elements that are present in the star will have their spectral lines uh... blocked out. Look for the ones that are m-missing.";
+
+  // Play the audio file
+  const audio = new Audio("audio/three.mp3");
+  audio.play();
 }
 
 function displayLevel3() {
@@ -102,6 +114,10 @@ function displayLevel3() {
 
   const text = document.getElementById("infoText");
   text.innerHTML = "<strong>Dr. Crick Branchez</strong>Yes, that's f-yes that's correct uh.. good. I've tracked the spectroscopic em-emmission of John um... Hydrogen's home star. Fu-Figure out which it is. Use what y-you learned about spectral lines and HR diagrams.";
+
+  // Play the audio file
+  const audio = new Audio("audio/four.mp3");
+  audio.play();
 }
 
 function displayLevel4() {
@@ -123,6 +139,10 @@ function displayLevel4() {
 
   const text = document.getElementById("infoText");
   text.innerHTML = "<strong>Dr. Crick Branchez</strong>Y-Yeah, that's it. That's uh... John's house. Good job here's your f-first place um... medal. And the second place medal. You get all the f- all the uh... medals.";
+
+  // Play the audio file
+  const audio = new Audio("audio/five.mp3");
+  audio.play();
 }
 
 function checkAnswer(answer) {
